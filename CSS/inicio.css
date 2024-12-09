@@ -1,0 +1,69 @@
+body{
+    display: flex;
+    padding: 80px;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+    min-height: 5vh;
+    background: linear-gradient(to right, #808080, #3fada8);
+}
+.principal{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 50%;
+    gap: 20px;
+}
+.foto{
+    position: relative;
+    border: 4px dashed black;
+    width: 100%;
+    height: 100%;
+    
+
+}
+.foto img{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+.estudiante{
+    padding: 20px;
+    background-color: aquamarine;
+    border: 4px dashed black;
+}
+.estudiante h1{
+    
+    text-align: center;
+}
+.estudiante h3{
+   
+    text-align: center;
+    color: blue;
+}
+.estudiante p{
+    text-align: center;
+}
+
+.btn{
+    margin: 20px 0;
+    grid-column: span 2;
+    box-sizing: border-box;
+    border: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.btn button{
+    border: 1px solid black;
+    padding: 4px 8px;
+    font-size: larger;
+    color: white;
+    border-radius: 30px;
+    background-color: #f80759;
+    cursor: pointer;
+ }
+
+ .btn button:hover{
+    color: #eebbcc;
+    border-color: white;
+ }

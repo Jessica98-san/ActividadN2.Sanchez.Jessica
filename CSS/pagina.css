@@ -1,0 +1,70 @@
+body{
+    margin: 5px solid;
+    display: grid;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: salmon;
+}
+
+input{
+    width: 12vw;
+}
+
+button{
+    border: 1px solid black;
+    padding: 4px 8px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+h1{
+    color: white;
+    text-shadow: 1px 1px 4px black;
+}
+
+.estructuraif, 
+.estrucswitch, 
+.estructuraarray {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 20vh;
+    flex-direction: column;
+    gap: 1vh;
+    padding: 40px;
+    background: linear-gradient(to right, #bc4e9c, #f80759);
+    border: 1px solid black;
+    border-radius: 20px;
+    color: white;
+}
+
+.listanom{
+
+    width: 50%;
+    height: 50%;
+    padding: 5px 5px;
+    margin:  5px 0;
+    text-align: center;
+}
+.btn{
+    box-sizing: border-box;
+    border: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.btn button{
+    border: 1px solid black;
+    padding: 4px 8px;
+    font-size: larger;
+    color: white;
+    border-radius: 30px;
+    background-color: #f80759;
+    cursor: pointer;
+ }
+
+ .btn button:hover{
+    color: #eebbcc;
+    border-color: white;
+ }

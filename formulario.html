@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+    <link rel="stylesheet" href="CSS/formulario.css">
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="imagen">
+            <img src="https://definicion.de/wp-content/uploads/2011/07/contacto.jpg" alt="Formulario">
+        </div>
+        <form id="form" action="datos.html">
+            <h3> Formulario De Registro</h3>
+            <label for="ID">ID Estudiante: </label>
+            <input type="text" id="ID" name="ID" placeholder="Ingrese su ID">
+            <br>
+            <label for="cedula">Cédula de identidad</label>
+            <input type="text" id="cedula" name="cedula" placeholder="Ingrese su Cedula">
+            <br>
+            <label for="nombre">Nombres Completos</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Escriba su Nombre y Apellido">
+            <br>
+            <label for="fecha">Fecha de Nacimiento</label>
+            <input type="date" id="fecha" name="fecha" placeholder="Ingrese la Fecha de Nacimiento">
+            <br>
+            <label for="place">Lugar de procedencia</label>
+            <div>
+                <select name="lugar" id="lugar">
+                    <option value="Pichincha">Pichincha</option>
+                    <option value="Latacunga">Latacunga</option>
+                    <option value="Riobamba">Riobamba</option>
+                    <option value="Guayaquil">Guayaquil</option>
+                    <option value="Cuenca">Cuenca</option>
+                </select>
+            </div>
+            <br>
+            <button type="submit" class="btn-registrar" id="registrar">Registrar</button>
+        </form>
+        <br>
+
+        <div class="btn">
+            <a href="index.html"><button>Menu</button></a>
+        </div>
+
+        <script src="JS/formulario.js"></script>
+</body>
+
+</html
